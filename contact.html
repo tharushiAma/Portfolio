@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Your Page Title</title>
+</head>
+<body>
+
+<!-- Container for the navbar -->
+<div id="navbar-container"></div>
+
+<!-- Your page content goes here -->
+<section class="contact-section">
+  <div class="contact-image">
+    <img src="contact_image.jpg" alt="Contact Image">
+  </div>
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-media">
+      <p>Connect with us:</p>
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- Container for the footer -->
+<div id="footer-container"></div>
+
+<!-- Include the JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
